@@ -1,0 +1,41 @@
+{
+    "Project": {
+        "Name": "Cdk",
+        "Stage": "Dev",
+        "Account": "179248873946",
+        "Region": "ap-northeast-2",
+        "Profile": "default"
+    },
+
+    "Stack": {
+        "Organization": {
+            "Name": "organization",
+
+            "Source": "Bitbucket",
+            "SourceDesc": "Github or CodeCommit or Bitbucket or New",
+            "GithubAuthToken": "",
+            "BitbucketConnectionArn": "",
+            "SourceOwner": "mz",
+            "SourceRepoName": "organization",
+            "Branch": "main",
+
+            "Key": "Value",
+            "ImageRepo": "organization"
+        },
+      
+        "User": {
+            "Name": "user",
+
+            "Source": "Bitbucket",
+            "SourceDesc": "Github or CodeCommit or Bitbucket or New",
+            "GithubAuthToken": "",
+            "BitbucketConnectionArn": "arn:aws:codestar-connections:ap-northeast-2:111122223333:connection/abcdefg",
+            "SourceOwner": "megazone",
+            "SourceRepoName": "user",
+            "Branch": "main",
+
+            "Key": "Value",
+            "ImageRepo": "mz/user/rest-api"
+        }
+    }
+}
