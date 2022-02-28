@@ -5,7 +5,7 @@ This is a blank project for TypeScript development with CDK.
 The `cdk.json` file tells the CDK Toolkit how to execute your app.
 
 ## Setting App-Config Path
- * `export APP_CONFIG=app-config-demo.json`
+ * `export APP_CONFIG=app-config.json`
 
 ## Useful commands
 
